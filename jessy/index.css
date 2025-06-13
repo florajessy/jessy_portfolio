@@ -1,0 +1,261 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.box{
+   /* border: solid 1px black;*/
+    /* height: 50px; */
+    width: 100%;
+    display: flex;
+}
+.box .left{
+    /* height: 50px; */
+    width: 30%;
+    background-color: rgb(109, 195, 166);
+}
+.left h1{
+     margin-top: 5px;
+     margin-left: 30%;
+     color: rgba(6, 77, 159, 0.91);
+     font-size: 40px;
+}
+.box .right{
+    /* height: 50px; */
+    width: 70%;
+    background-color: rgb(109, 195, 166);
+}
+.right ul{
+    display: flex;
+    justify-content: space-evenly ;
+}
+.right li{
+    margin-top: 15px;
+    list-style: none   
+}
+.right a{
+    color: darkmagenta;
+    font-weight: bold;
+    font-size: 24px;
+    text-decoration: none;
+}
+.mid1{
+    background-color: darksalmon;
+}
+.mid1 .box{
+    /*border: solid 1px black;*/
+    height: 500px;
+    width: 100%;
+
+}
+.mid1 .box{
+    justify-content: space-evenly;
+}
+.mid1 .box .box1{
+    /*border: solid 1px black;*/
+    height: 500px;
+    width: 850px;
+}
+.mid1 .box .box2{
+   /* border: solid 1px black;*/
+    height: 500px;
+    width: 500px;
+}
+.mid1 .box .box1 p{
+    text-align: center;
+    font-size: 28px;
+    margin-top: 15%;
+    text-align: justify;
+}
+.mid1 .box .box2 img{
+   margin-top: -25%;
+   border-radius: 50%;
+   border-color: black;
+}
+.mid1{
+    background-color: cadetblue;
+}
+.mid .box{
+    background-color: rgb(144, 220, 222);
+    height: 60px;
+    width: 100%;
+
+}
+.mid .box h1{
+    margin-left: 44%;
+    margin-top: 17px;
+    color: darkmagenta;
+}
+.mid2 .box{
+   /* border: solid 1px black;*/
+   background-color: cadetblue;
+    height: 470px;
+    width: 100%;
+    justify-content: space-evenly;
+    display: flex
+    
+    
+}
+.mid2 .box .box1{
+   /* border: solid 1px black;*/
+    height: 400px;
+    width: 700px;
+    /* background-color: antiquewhite; */
+}
+.mid2 .box .box1 h1{
+   text-align: center;
+  color: white;
+}
+.mid2 .box .box1 li{
+    margin-left: 20%;
+    font-size: 25px;
+   color: black;
+}
+.mid2 .box .box2{
+    /* border: solid 1px black; */
+    height: 400px;
+    width: 700px;
+    /* background-color: antiquewhite; */
+}
+.mid2 .box .box2 h1{
+   text-align: center;
+   color: white;
+}
+.mid2 .box .box2 li{
+    margin-left: 20%;
+    font-size: 25px;
+    color: black;
+}
+.mid3 .box{
+    /* border: solid 1px black; */
+    height: 300px;
+    width: 700px;
+    /* background-color: antiquewhite; */
+    margin: auto;
+    display: block;
+}
+.mid3{
+    background-color: cadetblue;
+}
+.mid3 .box h1{
+    color: white;
+    text-align: center;
+}
+.mid3 .box li{
+    margin-left: 20%;
+    font-size: 25px;
+    color: black;
+}
+.ed .box{
+    /* border: solid 1px black; */
+    height: 50px;
+    width: 100%;
+    background-color: rgb(149, 233, 236);
+}
+.ed .box h1{
+    margin-left: 45%;
+    color: darkmagenta;
+}
+.ed1 .box{
+    /* border: solid 1px black; */
+    height: 650px;
+    width: 100%;
+    display: block;
+    /* background-color: cornflowerblue; */
+    background-color: cadetblue;
+}
+.ed1 .box .box1{
+    /* border: solid 1px black; */
+    height: 25%;
+    width: 100%;
+    /* background-color: cornflowerblue; */
+}
+.ed1 .box .box1 h2{
+     font-size: 35px;
+     color: black;
+}
+.ed1 .box .box1 h3{
+     font-size: 25px;
+     color: black;
+     margin-left: 85%;
+}
+.ed1 .box .box1 h4{
+     font-size: 30px;
+     color: beige;
+}
+.ed1 .box .box1 h5{
+     font-size: 25px;
+     color: beige;
+}
+.pro .box{
+   /* border: solid 1px black;*/
+    height: 50px;
+    width: 100%;
+    background-color: rgb(141, 235, 239);
+}
+.pro .box h1{
+   margin-left: 44%;
+    margin-top: 17px;
+    color: darkmagenta;
+    font-size: 45px;
+    margin-top: -5px;
+}
+.pro1 .box1{
+    background-color: cadetblue;
+}
+.pro1 .box1 h1{
+    text-align: center;
+
+}
+.pro1 .box1 ul li{
+   margin-left: 25%;
+   font-size: 28px;
+   color: white;
+}
+.ho .box{
+    /* border: solid 1px black; */
+    height: 50px;
+    width: 100%;
+     background-color: rgb(141, 235, 239);
+}
+.ho .box h1{
+  margin-left: 44%;
+  color: darkmagenta;
+  font-size: 45px;
+}
+.ho1{
+     background-color: cadetblue;
+     height: 200px;
+     width: 100%;
+     display: flex;
+}
+.ho1 .box img{
+    height: 150px;
+    width: 250px;
+    margin-left: 35%;
+}
+.ho1 .box h1{
+    margin-top: 20%;
+    margin-left: -27%; 
+}
+.con .box {
+    background-color: rgb(141, 235, 239);
+    height: 200px;
+    width: 100%;
+    display: block;
+}
+.con .box h1{
+    margin-left: 45%;
+    color: darkmagenta;
+}
+.con .box h2{
+    margin-left: 35%;
+}
+.con .box img{
+    height: 30px;
+    width: 40px;
+    margin-left: 66%;
+    margin-bottom: -21px;
+}
+
+
+
